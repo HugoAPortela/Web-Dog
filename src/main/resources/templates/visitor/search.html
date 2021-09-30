@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<th:block th:fragment="search">
+    <section>
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-4">Seja bem-vindo!</h1>
+                <p class="lead">Veja quem esta querendo cuidar de seu melhor amigo</p>
+                <form class="navbar-form" role="search" method="get">
+                    <div class = "container">
+                        <div class="input-group-prepend">
+                            <input type="text" class="form-control" placeholder="Busque por um canis, tratadores em sua cidade ou estado">
+                            <button type="submit" class="btn btn-info">
+                                <span>Buscar</span>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</th:block>
+</body>
+</html>
